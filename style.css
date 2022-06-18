@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+
+}
+.grid-content{
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.grid-content .p-grid{
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    padding: 0.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+
+
+.top-content {
+    background-color: rgb(221, 151, 0);
+    color: white;
+    padding: 2em;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.top-content h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-size: bold;
+}
+
+.top-content .p-top {
+    color: white;
+    font-size: 12px;
+    padding-bottom: 50px;
+}
+
+.second-content {
+    background-color: rgb(0, 140, 165);
+    color: white;
+    padding: 2em;
+    width: 100%;
+}
+
+.second-content h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-size: bold;
+}
+
+.second-content .p-top {
+    color: white;
+    font-size: 12px;
+    padding-bottom: 50px;
+}
+
+.third-content {
+    background-color: rgb(0, 82, 78);
+    color: white;
+    padding: 2em;
+    width: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.third-content h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-size: bold;
+}
+
+.third-content .p-top {
+    color: white;
+    font-size: 12px;
+    padding-bottom: 50px;
+}
+
+.link {
+    border: 2px solid white;
+    text-align: center;
+    margin-bottom: 0.75rem;
+    padding: 0.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+}
